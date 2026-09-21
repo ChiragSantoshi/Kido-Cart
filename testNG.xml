@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="KIDO STORE" parallel="methods">
+    <test name="cucumber trials">
+        <classes>
+                <class name="testRunner.ParallelTestRunner"/>
+        </classes>
+    </test>
+</suite>
